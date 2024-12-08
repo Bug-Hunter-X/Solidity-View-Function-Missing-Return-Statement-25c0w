@@ -1,0 +1,3 @@
+# Solidity View Function Bug
+
+This repository demonstrates a subtle bug in a Solidity smart contract: a missing return statement in a `view` function.  `view` functions are intended to be read-only and should not modify the contract's state.  However, a missing return statement can lead to unexpected behavior, as the function might not return the expected value.  This can cause issues for calling contracts or users interacting with the function.
